@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CREACION_BD">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="MININT-2GBQ5LP\DESARROLLO_2016:scroscar6">
+          <Created>2016-09-04T14:57:41.5057165-05:00</Created>
+          <Type>SQL</Type>
+          <Server>MININT-2GBQ5LP\DESARROLLO_2016</Server>
+          <UserName>scroscar6</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CATASTRO</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1_CREACION_DE_BD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MININT-2GBQ5LP\DESARROLLO_2016:False:scroscar6</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MININT-2GBQ5LP\DESARROLLO_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName>scroscar6</AssociatedConnUserName>
+          <FullPath>1_CREACION_DE_BD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_COMENTARIOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MININT-2GBQ5LP\DESARROLLO_2016:False:scroscar6</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MININT-2GBQ5LP\DESARROLLO_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName>scroscar6</AssociatedConnUserName>
+          <FullPath>2_COMENTARIOS.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
