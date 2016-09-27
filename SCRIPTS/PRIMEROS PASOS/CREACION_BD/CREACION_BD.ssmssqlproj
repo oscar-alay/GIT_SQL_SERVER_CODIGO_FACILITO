@@ -3,6 +3,18 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="MININT-2GBQ5LP:scroscar6">
+          <Created>2016-09-08T03:42:08.2874394-05:00</Created>
+          <Type>SQL</Type>
+          <Server>MININT-2GBQ5LP</Server>
+          <UserName>scroscar6</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>db_dorita</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="MININT-2GBQ5LP\DESARROLLO_2016:scroscar6">
           <Created>2016-09-04T14:57:41.5057165-05:00</Created>
           <Type>SQL</Type>
@@ -30,6 +42,12 @@
           <AssociatedConnSrvName>MININT-2GBQ5LP\DESARROLLO_2016</AssociatedConnSrvName>
           <AssociatedConnUserName>scroscar6</AssociatedConnUserName>
           <FullPath>2_COMENTARIOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_TIENDA_CODIGO_FACILITO_COMENTADO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MININT-2GBQ5LP\DESARROLLO_2016:False:scroscar6</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MININT-2GBQ5LP\DESARROLLO_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName>scroscar6</AssociatedConnUserName>
+          <FullPath>3_TIENDA_CODIGO_FACILITO_COMENTADO.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

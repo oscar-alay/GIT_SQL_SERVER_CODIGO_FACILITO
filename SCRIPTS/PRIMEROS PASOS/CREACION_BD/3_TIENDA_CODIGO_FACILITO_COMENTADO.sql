@@ -1,0 +1,77 @@
+-- TIENDA DE CODIGO FACILITO
+-- PARA LA CREACION APLICAREMOS CREATE,ALTER,DROP DDL
+
+/*
+Acl
+	Usuario
+		idusuario
+		nombre
+		usuario
+		pass
+		sys
+	Permiso
+		idpermiso
+		descripcion
+		sys
+	UsuarioPermiso
+		idusuario
+		idpermiso
+		sys
+
+RecursosHumanos
+	Empleado
+		idempleado
+		idtipoempleado
+		nombre
+		telefono
+		correo
+		documento
+		fechanacimiento
+	TipoEmpleado
+		idtipoempleado
+		descripcion
+		sys
+
+Almacen
+	Producto
+		idproducto
+		idmarca
+		idproveedor
+		nombre
+		precio
+		stock
+		sys
+	Marca
+		idmarca
+		descripcion
+		sys
+	Proveedor
+		idproveedor
+		idprocedencia
+		descripcion
+		telefono
+		correo
+		sys
+	Procedencia
+		idprocedencia
+		descripcion
+		sys
+Compras
+	Cliente
+		idcliente
+		nombre
+		documento
+		telefono
+		correo
+		sys
+	Venta
+		idventa
+		idcliente
+		idempleado
+		fecha
+		sys
+	VentaDetalle
+		idventa
+		idproducto
+		sys
+*/																				
